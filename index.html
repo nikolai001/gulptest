@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Skabelon</title>
+
+    <meta name="robots" content="All">
+    <meta name="keywords" content="">
+    <meta name="author" content="Nikolai Raahauge">
+    <meta name="copyright" content="© Copyright 2019 Nikolai Raahauge">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="css/nav.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+<div class="GridBody">
+    <nav></nav>
+    <img src="images/burger.svg" id="Burger">
+    <div id="BurgerContent">
+
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script>
+    $(function () {
+        $("#Burger").click(function () {
+            $("#BurgerContent").toggleClass("FlexClass");
+            // $("#BurgerContent").fadeIn(200)
+        })
+    })
+
+</script>
+
+</body>
+</html>

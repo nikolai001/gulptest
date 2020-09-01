@@ -1,0 +1,12 @@
+$test:#000040;
+
+body{
+  color:$test;
+  display:grid;
+  grid-template-columns:1fr;
+  justify-content:center;
+  background-color:red;
+  align-content:center;
+  user-select: none;
+
+}
