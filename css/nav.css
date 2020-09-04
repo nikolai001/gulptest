@@ -1,0 +1,2 @@
+nav{display:flex;justify-content:space-evenly;width:100%;bottom:0;box-shadow:0 0 12px #1abc9c;position:fixed;padding:4% 0;background-color:#fff}nav a{width:18%}nav a:nth-child(n+2){-webkit-filter:grayscale(100%);filter:grayscale(100%)}nav a img{width:100%}@media screen and (min-width:600px){nav{display:flex;justify-content:space-around;padding:2% 0}nav a{width:10%}nav a img{width:100%}}
+/*# sourceMappingURL=nav.css.map */

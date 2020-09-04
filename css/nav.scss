@@ -30,7 +30,7 @@ nav{
 @media screen and (min-width: $TabletWidth) {
   nav {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     padding: 2% 0;
 
     a {
