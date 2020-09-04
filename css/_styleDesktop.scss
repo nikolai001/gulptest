@@ -1,6 +1,12 @@
-$DesktopWidth:1000px;
+$desktop:"screen and (min-width: 1000px)";
 
-@media screen and (min-width: $DesktopWidth) {
+@media #{$desktop} {
+
+  button{
+    width:37%;
+    margin-left:4%;
+  }
+
   #beskrivelse,#pris{
     margin-top:5%;
   }

@@ -1,6 +1,7 @@
-$TabletWidth:600px;
+$tablet:"screen and (min-width: 600px)";
 
-$DesktopWidth:1000px;
+$desktop:"screen and (min-width: 1000px)";
+
 
 $bkgColor:#ffff;
 
@@ -27,7 +28,7 @@ nav{
   }
 }
 
-@media screen and (min-width: $TabletWidth) {
+@media #{$tablet} {
   nav {
     display: flex;
     justify-content: space-around;
@@ -43,7 +44,7 @@ nav{
   }
 }
 
-@media screen and (min-width: $DesktopWidth) {
+@media #{$desktop} {
   nav {
     display: flex;
     justify-content:start;

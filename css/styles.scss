@@ -1,7 +1,3 @@
-$TabletWidth:600px;
-
-$DesktopWidth:1000px;
-
 $bkgColor:#ffff;
 
 $PrimColor:#1ABC9C;
@@ -45,6 +41,13 @@ img {
 body {
   background-color:$bkgColor;
   overscroll-behavior: contain;
+}
+
+button{
+  border:none;
+  outline:none;
+  background-color:transparent;
+  width:20%;
 }
 
 #beskrivelse,#pris{

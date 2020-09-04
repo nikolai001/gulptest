@@ -1,7 +1,12 @@
-$TabletWidth:600px;
+$tablet:"screen and (min-width: 600px)";
 
 
-@media screen and (min-width: $TabletWidth) {
+@media #{$tablet} {
+
+  button{
+    width:12%;
+  }
+
   #beskrivelse,#pris{
     margin-top:5%;
   }
