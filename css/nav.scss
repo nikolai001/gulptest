@@ -1,0 +1,19 @@
+nav{
+  display:flex;
+  justify-content:space-evenly;
+  width:100%;
+  bottom:0;
+  box-shadow:#1ABC9C 0 0 12px;
+  position:fixed;
+  padding:4% 0;
+
+  a{
+    width:18%;
+    &:nth-child(n+2){
+      filter:grayscale(100%);
+    }
+    img{
+      width:100%;
+    }
+  }
+}

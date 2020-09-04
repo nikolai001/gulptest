@@ -45,34 +45,29 @@ body {
   overscroll-behavior: contain;
 }
 
-nav{
-  display:flex;
-  justify-content:space-evenly;
-  width:100%;
-  bottom:0;
-  box-shadow:#1ABC9C 0 0 12px;
-  position:fixed;
-  padding:4% 0;
-
-  a{
-    width:18%;
-    &:nth-child(n+1){
-      filter:grayscale(100%);
-    }
-    img{
-      width:100%;
-    }
-  }
+#beskrivelse,#pris{
+  margin-top:5%;
 }
 
 .GridBody{
   display:grid;
   grid-template-columns:1fr;
 
+  h4{
+    font-size:29px;
+    font-family:Montserrat;
+    font-style: italic;
+    color: #707070;
+    text-align:center;
+    margin-top:5%;
+  }
+
   #TopBar{
     background-color:#1ABC9C;
     padding:2% 0;
-      h3{
+    box-shadow:#000000 0 1px 10px;
+
+    h3{
         font-size:31px;
         color:white;
         font-weight:bold;
@@ -80,4 +75,32 @@ nav{
         font-family:Montserrat;
       }
   }
+
+  form{
+    grid-column:1/-1;
+    display:grid;
+    grid-template-columns:1fr;
+    justify-items:center;
+    margin-top:15%;
+
+
+    input,textarea{
+      width:90%;
+      resize: vertical;
+      font-size:18px;
+    }
+
+    input{
+      padding:4% 3%;
+      border:1px solid #707070;
+      border-radius:5px;
+    }
+
+    label{
+      font-family: Montserrat;
+      font-size:26px;
+      text-align:center;
+    }
+  }
+
 }
