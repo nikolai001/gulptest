@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="58" height="58" viewBox="0 0 58 58">
+  <g id="Group_16" data-name="Group 16" transform="translate(-271 -743)">
+    <g id="Group_7" data-name="Group 7" transform="translate(271.457 743.457)">
+      <g id="Group_5" data-name="Group 5">
+        <g id="Ellipse_2" data-name="Ellipse 2" transform="translate(-0.457 -0.457)" fill="none" stroke="#1abc9c" stroke-width="3">
+          <circle cx="29" cy="29" r="29" stroke="none"/>
+          <circle cx="29" cy="29" r="27.5" fill="none"/>
+        </g>
+      </g>
+    </g>
+    <path id="chart-line-regular_1_" data-name="chart-line-regular (1)" d="M5.246,85.622a.967.967,0,0,0,1.368,0l5.961-6.268,6.674,2.554c.571.219.99.378,1.368,0L28.86,73l1.783,1.784a1.451,1.451,0,0,0,2.477-1.026v-6.1a.967.967,0,0,0-.967-.967h-6.1a1.451,1.451,0,0,0-1.026,2.477l1.784,1.783-6.874,7.54-6.674-2.554c-.593-.334-.99-.378-1.368,0L4.562,83.57a.967.967,0,0,0,0,1.368ZM29.987,88.53H2.9V64.967A.967.967,0,0,0,1.935,64H.967A.967.967,0,0,0,0,64.967V89.5a1.935,1.935,0,0,0,1.935,1.935H29.987a.967.967,0,0,0,.967-.967V89.5A.967.967,0,0,0,29.987,88.53Z" transform="translate(283 694)" fill="#1abc9c"/>
+  </g>
+</svg>
