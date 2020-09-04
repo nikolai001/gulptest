@@ -280,7 +280,7 @@ body {
       grid-column:1/-1;
 
       &:nth-of-type(2){
-        margin-top:0%;
+        margin-top:5%;
       }
     }
 
@@ -300,12 +300,12 @@ body {
 
     img{
       grid-column:1/-1;
-      width:75%;
+      width:60%;
       justify-self:center;
-      margin-top:10%;
+      margin-top:5%;
 
       &:nth-of-type(2){
-        margin-bottom:20%;
+        margin-bottom:0;
       }
 
     }
