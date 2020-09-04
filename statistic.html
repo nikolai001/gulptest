@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Skabelon</title>
+
+    <meta name="robots" content="All">
+    <meta name="keywords" content="">
+    <meta name="author" content="Nikolai Raahauge">
+    <meta name="copyright" content="© Copyright 2019 Nikolai Raahauge">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="css/nav.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,200&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="GridBody">
+    <div id="TopBar">
+        <h3>Rediger produkt</h3>
+    </div>
+
+    <nav>
+        <a href="index.html"><img src="images/add.svg" alt="Add button"></a>
+        <a href="rediger.html"><img src="images/edit.svg" alt="Edit button"></a>
+        <a href="statistic.html"><img src="images/graph.svg" alt="Edit button"></a>
+    </nav>
+
+    <h4>Besøgs tal</h4>
+
+    <img src="images/graph.png" alt="Over syg graf">
+
+
+    <h4>Adsense fra besøgende</h4>
+
+    <img src="images/graph.png" alt="Over syg graf">
+
+    <div id="BurgerContent">
+
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script>
+    $(function () {
+        $("#Burger").click(function () {
+            $("#BurgerContent").toggleClass("FlexClass");
+            // $("#BurgerContent").fadeIn(200)
+        })
+    })
+
+</script>
+
+</body>
+</html>

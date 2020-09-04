@@ -1,3 +1,7 @@
+$TabletWidth:600px;
+
+$DesktopWidth:1000px;
+
 $bkgColor:#ffff;
 
 $PrimColor:#1ABC9C;
@@ -19,6 +23,22 @@ nav{
     }
     img{
       width:100%;
+    }
+  }
+}
+
+@media screen and (min-width: $TabletWidth) {
+  nav {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2% 0;
+
+    a {
+      width: 10%;
+
+      img {
+        width: 100%;
+      }
     }
   }
 }
