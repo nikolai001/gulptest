@@ -56,6 +56,14 @@ button{
   margin-top:5%;
 }
 
+@mixin Font($Size:18px , $Color:#fff , $Format){
+  font-size:$Size;
+  color:$Color;
+  font-family: Montserrat;
+  font-style: $Format;
+  text-align:center;
+}
+
 .GridBody{
   display:grid;
   grid-template-columns:1fr;
@@ -67,11 +75,7 @@ button{
   }
 
   h4{
-    font-size:29px;
-    font-family:Montserrat;
-    font-style: italic;
-    color: #707070;
-    text-align:center;
+    @include Font(29px,#707070,italic);
     margin-top:5%;
     grid-column:1/-1;
 
@@ -83,17 +87,14 @@ button{
   .Knap{
     text-align:center;
     width:80%;
-    font-size:29px;
+    @include Font(29px,$PrimColor,italic);
     border:solid $PrimColor 2px;
     border-radius:10px;
     grid-column:1/-1;
     justify-self:center;
     text-decoration:none;
-    color:$PrimColor;
     padding:2% 0;
     margin-top:5%;
-    font-family:Montserrat;
-    font-style:italic;
   }
 
   .Knap:hover{
@@ -118,11 +119,8 @@ button{
     box-shadow:#000000 0 1px 10px;
 
     h3{
-        font-size:31px;
-        color:white;
-        font-weight:bold;
-        text-align:center;
-        font-family:Montserrat;
+      @include Font(31px,#fff,italic);
+      font-weight:bold;
       }
   }
 
@@ -151,8 +149,7 @@ button{
     }
 
     label{
-      font-family: Montserrat;
-      font-size:26px;
+      @include Font(26px,#000,normal);
       text-align:center;
       margin-bottom:5%;
     }
