@@ -1,0 +1,99 @@
+$TabletWidth:600px;
+
+
+@media screen and (min-width: $TabletWidth) {
+  #beskrivelse,#pris{
+    margin-top:5%;
+  }
+
+  .GridBody{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+
+    .container{
+      grid-column:1/-1;
+    }
+
+    h4{
+      font-size:40px;
+      font-family:Montserrat;
+      font-style: italic;
+      color: #707070;
+      text-align:center;
+      margin-top:5%;
+      grid-column:1/-1;
+
+      &:nth-of-type(2){
+        margin-top:10%;
+      }
+    }
+
+    .Knap{
+      text-align:center;
+      width:80%;
+      grid-column: auto;
+      font-size:25px;
+      margin-top:10%;
+    }
+
+    .Knap:hover{
+      background-color: $PrimColor;
+      color:$bkgColor;
+    }
+
+    .Knap:nth-last-child(1){
+      margin-bottom:0;
+    }
+
+    img{
+      grid-column:1/-1;
+      width:75%;
+      justify-self:center;
+      margin-top:10%;
+
+      &:nth-of-type(2){
+        margin-bottom:20%;
+      }
+    }
+
+    #TopBar{
+      background-color:$PrimColor;
+      padding:2% 0;
+      box-shadow:#000000 0 1px 10px;
+      grid-column:1/-1;
+
+      h3{
+        font-size:40px;
+        color:white;
+        font-weight:bold;
+        text-align:center;
+        font-family:Montserrat;
+      }
+    }
+
+    form{
+      margin-top:5%;
+
+
+      input,textarea{
+        font-size:24px;
+      }
+
+      input{
+        border-radius:10px;
+
+        &:nth-of-type(2){
+          margin-bottom:20%;
+        }
+      }
+
+      label{
+        font-family: Montserrat;
+        font-size:40px;
+        text-align:center;
+        margin-bottom:5%;
+      }
+    }
+
+  }
+}
