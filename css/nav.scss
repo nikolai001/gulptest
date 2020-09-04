@@ -23,7 +23,7 @@ nav{
       filter:grayscale(100%);
     }
     img{
-      width:100%;
+      width: 100% !important;;
     }
   }
 }
@@ -38,7 +38,7 @@ nav{
       width: 10%;
 
       img {
-        width: 100%;
+        width: 100% !important;;
       }
     }
   }
@@ -55,12 +55,12 @@ nav{
     height:100vh;
 
     a {
-      width: 35%;
+      width: 25%;
       margin-bottom:25%;
       margin-left:5%;
 
       img {
-        width: 100%;
+        width: 100% !important;;
       }
     }
   }
