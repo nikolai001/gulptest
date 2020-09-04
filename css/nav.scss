@@ -7,6 +7,9 @@ $bkgColor:#ffff;
 
 $PrimColor:#1ABC9C;
 
+$Shadow:lighten(#1ABC9C , 5);
+
+
 $NavButton:18%;
 
 nav{
@@ -14,7 +17,7 @@ nav{
   justify-content:space-evenly;
   width:100%;
   bottom:0;
-  box-shadow:$PrimColor 0 0 12px;
+  box-shadow:$Shadow 0 0 12px;
   position:fixed;
   padding:4% 0;
   background-color:$bkgColor;
