@@ -1,11 +1,16 @@
+$bkgColor:#ffff;
+
+$PrimColor:#1ABC9C;
+
 nav{
   display:flex;
   justify-content:space-evenly;
   width:100%;
   bottom:0;
-  box-shadow:#1ABC9C 0 0 12px;
+  box-shadow:$PrimColor 0 0 12px;
   position:fixed;
   padding:4% 0;
+  background-color:$bkgColor;
 
   a{
     width:18%;

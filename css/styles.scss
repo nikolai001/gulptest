@@ -4,6 +4,8 @@ $DesktopWidth:1000px;
 
 $bkgColor:#ffff;
 
+$PrimColor:#1ABC9C;
+
 * {
   box-sizing: border-box;
   scroll-behavior: smooth;
@@ -62,8 +64,29 @@ body {
     margin-top:5%;
   }
 
+  .Knap{
+    text-align:center;
+    width:80%;
+    font-size:29px;
+    border:solid $PrimColor 2px;
+    border-radius:10px;
+    grid-column:1/-1;
+    justify-self:center;
+    text-decoration:none;
+    color:$PrimColor;
+    padding:2% 0;
+    margin-top:5%;
+    font-family:Montserrat;
+    font-style:italic;
+  }
+
+  .Knap:hover{
+    background-color: $PrimColor;
+    color:$bkgColor;
+  }
+
   #TopBar{
-    background-color:#1ABC9C;
+    background-color:$PrimColor;
     padding:2% 0;
     box-shadow:#000000 0 1px 10px;
 
