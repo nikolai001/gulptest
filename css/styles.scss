@@ -234,3 +234,100 @@ body {
 }
 
 
+@media screen and (min-width: $DesktopWidth) {
+  #beskrivelse,#pris{
+    margin-top:5%;
+  }
+
+  .GridBody{
+    display:grid;
+    grid-template-columns:0.3fr 1fr;
+
+    h4{
+      font-size:40px;
+      font-family:Montserrat;
+      font-style: italic;
+      color: #707070;
+      text-align:center;
+      margin-top:0;
+      grid-column:2/3;
+
+      &:nth-of-type(2){
+        margin-top:0%;
+      }
+    }
+
+    .Knap{
+      text-align:center;
+      width:80%;
+      grid-column: auto;
+      font-size:25px;
+      margin-top:10%;
+    }
+
+    .Knap:hover{
+      background-color: $PrimColor;
+      color:$bkgColor;
+    }
+
+    img{
+      grid-column:1/-1;
+      width:75%;
+      justify-self:center;
+      margin-top:10%;
+
+      &:nth-of-type(2){
+        margin-bottom:20%;
+      }
+
+      .container{
+        display:grid;
+        grid-template-columns:1fr 1fr;
+        justify-content:center;
+      }
+    }
+
+    #TopBar{
+      background-color:$PrimColor;
+      padding:2% 0;
+      box-shadow:#000000 0 1px 10px;
+      grid-column:1/2;
+
+      h3{
+        font-size:24px;
+        padding:4% 0;
+        color:white;
+        font-weight:bold;
+        text-align:center;
+        font-family:Montserrat;
+      }
+    }
+
+    form{
+      margin-top:0;
+
+
+      input,textarea{
+        font-size:24px;
+      }
+
+      input{
+        border-radius:10px;
+
+        &:nth-of-type(2){
+          margin-bottom:0;
+        }
+      }
+
+      label{
+        font-family: Montserrat;
+        font-size:40px;
+        text-align:center;
+        margin-bottom:5%;
+      }
+    }
+
+  }
+}
+
+
